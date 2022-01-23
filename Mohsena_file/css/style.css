@@ -1,0 +1,200 @@
+
+*{margin:0; padding:0;}
+
+body{
+	font-family:sans-sarif;
+	width:100%;
+}
+
+header{
+	padding-top:15px; 
+	padding-bottom:5px; 
+	width:100%; 
+	position:fixed; 
+	overflow:hidden; 
+	background:#001c26; 
+	z-index:9999;
+	top:0px;
+}
+
+nav ul{
+	list-style:none;
+}
+
+nav ul li{
+	float:left; 
+	margin:auto 5px; 
+}
+
+nav ul li a{
+	float:left; 
+	text-transform:uppercase; 
+	text-decoration:none;
+	padding:10px 0px 10px 10px; 
+	color:white; font-size:.95rem;
+}
+
+nav ul li a:hover{
+	background:#c51cc5; 
+	border-radius:8px; 
+	color:white;
+}
+
+h1{
+	color:black; 
+	font-size:2.25rem; 
+	text-align:center; 
+	text-transform:uppercase;
+}
+
+h6{
+	color:white; 
+	font-size:1.15rem; 
+	font-width:500; 
+	text-align:center;
+}
+
+P{
+	color:white; 
+	line-height:1.6; 
+	font-size:.95rem; 
+	text-align:center; 
+}
+
+
+#home{ 
+	background-repeat:no-repeat; 
+	background-size:cover;
+	text-align:center; 
+	margin-top:20px; 
+	height:500px;
+}
+
+.container{
+	width:1170px; 
+	margin:auto;
+	text-align:center; 
+	overflow:hidden; 
+	background-repeat:no-repeat;
+	background-size:cover;
+}
+
+.col-50{
+	width:50%; 
+	float:left; 
+	text-align:center;
+}
+
+.col-33{
+	width:33%; 
+	float:left; 
+	text-align:center;
+	padding-bottom:10px;
+}
+
+.col-25{
+	width:25%; 
+	float:left; 
+	text-align:center;
+}
+
+.i{
+	font-size:2rem;  
+	color:yellow;
+}
+
+.content{
+	margin-left:10px; 
+	margin-right:5px;
+	margin-bottom:5px;
+}
+
+.btn{
+	padding:8px 20px; 
+	background:#4c97fb; 
+	border:0px; 
+	border-radius:15px; 
+	font-size:.90rem;
+	text-transform:uppercase;
+}
+
+#service .content{
+	float:left;
+	background:#ffffff47;
+	width:250px;
+	border-radius:10px; 
+	padding:60px;
+	margin-right:10px;
+	margin-bottom:10px;
+}
+
+#service .content:hover{
+	background:blue;
+}
+	
+
+
+#project img{
+	height:300px; 
+	width:90%; 
+	border-radius:5px;
+}
+
+#project .content{
+	position:relative; 
+}
+
+#project .overlay{
+	position:absolute; 
+	width:80%; 
+	left:22px; 
+	right:5px;  
+	bottom:15px; 
+	padding:15px; 
+	color:white; 
+	text-transform:uppercase; 
+	background:black; 
+	visibility:hidden; 
+	opacity:0; 
+	transition:.8s;
+}
+
+#project .content:hover .overlay{ 
+	visibility:visible; 
+	opacity:1; 
+}
+
+
+.footer{}
+
+.footer nav ul li{
+	list-style:none;
+}
+
+.footer nav ul li a i{
+	font-size:.1rem;
+	text-decoration:none;
+	color:#484848;
+}
+
+#upper{
+	position:fixed; 
+	right:25px; 
+	bottom:25px; 
+	height:30px; 
+	width:40px; 
+	background:#286470; 
+	text-align:center; 
+	padding-top:10px; 
+	margin-bottom:15px;
+}
+
+
+#upper i{
+	font-size:1.25rem; 
+	color:white; 
+}
+
+
+
+
